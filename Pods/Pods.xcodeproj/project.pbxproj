@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061E41732EF4592DD90A1A9588EEF5AB /* Cartography-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EBA668167F80FACC7DADD69D6A30A /* Cartography-iOS-dummy.m */; };
+		0B33618579C6D641CA489CDF0C556E97 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C6078FD57F1F3AD98E87DD677E503 /* Distribute.swift */; };
+		0D536BFCCA2CC7F507F135011C4D18EF /* Pods-RealmTasks-RealmTasks iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE66F7A6B9FAB42B13EF27AE1D0161F /* Pods-RealmTasks-RealmTasks iOS-dummy.m */; };
+		0D82772DD042C5A6F6918431C095CE89 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CCAD0D6BE251790AD4135C73207CCA /* LayoutSupport.swift */; };
+		0E421B8671B49B98C0A974A20A3C9C09 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504D384842E028A7C73E52AD2995021 /* Constrain.swift */; };
+		149B5433A7538F73A83B38FD1A4478A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */; };
+		1FA59BAA177FCCC02B214860CECA080D /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318899E4C7F625C00670BDA9570F3993 /* LayoutProxy.swift */; };
+		23D37A191FE57F74490C4DE491A30DA9 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B04411E9C8A1F0EA510BEB25C1D4A /* ViewUtils.swift */; };
+		2A81CD9CFEA71CA6A512EBAB9A80573A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14E6FED12168BAEC71E151B818E1707 /* Edges.swift */; };
+		2ED52B35AD7DABACDF0F8682FBDDC51C /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF337BC73414B70760A0B102357008EA /* ConstraintGroup.swift */; };
+		33250D5F5F58EDF3967B7B00DE927791 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22171EE4DD23DD925AF739F3CB5A1482 /* Context.swift */; };
+		37F2DB00438851A8E39E20490E783D6F /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC02B822053EFC39844B5C054DC8840 /* Constraint.swift */; };
+		3AE34D75D7C874EA565E61DD09062486 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE59169BF80526D5F97433AA527FDC /* Point.swift */; };
+		3BFB44FCF94A69AC1EA5827CEB3E2471 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */; };
+		4731C2150715991045D91A70C8EE543C /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B43D8C41DAB6161CE7D515E243578 /* Priority.swift */; };
+		4E6677BEF2C4092C9551F512278819D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */; };
+		5216AE485E82D65EDD00CD5BBA7B1814 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93128B623D99575A0FD84D1D008D0F /* Extensions.swift */; };
+		527C10BE105ED5D2B9AF641BD9E43838 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C6078FD57F1F3AD98E87DD677E503 /* Distribute.swift */; };
+		5297CBEF0E31E800C66D60E32FD816A5 /* Cartography-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6602023F449FA288F28D801A356FACB6 /* Cartography-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E050EE72197654AC3D01DF88611B69 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFDC9CE2E409D15FDD0B256EC4CD9 /* View.swift */; };
+		564437CDF63532D1E013C25B84388AB7 /* Pods-RealmTasks-RealmTasks iOS Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D57F860E7159BB8725B658CC50D39ED /* Pods-RealmTasks-RealmTasks iOS Tests-dummy.m */; };
+		5B01786BF3B58495ED39ED9EA4EB78E9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE59169BF80526D5F97433AA527FDC /* Point.swift */; };
+		5D2608AACCA9593F53628E7A4274684A /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DE6560CE572D8F60408905ADB19EF /* Coefficients.swift */; };
+		6D46B290090A2B56FC70BACC1DE8F0E2 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF337BC73414B70760A0B102357008EA /* ConstraintGroup.swift */; };
+		6D788A53FE5416D1885A5163CC484260 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE38676A247BAA51980BD129F71760C /* Property.swift */; };
+		70F40E6EE64F3B8507DA51A913A96D4B /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22171EE4DD23DD925AF739F3CB5A1482 /* Context.swift */; };
+		7781D2A79081488FF659461355D27F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */; };
+		77AE9A3A30DB4C29ED986855783CA86F /* Pods-RealmTasks-RealmTasks iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEF2D9B279F80D2FEBCA8E454F1C761 /* Pods-RealmTasks-RealmTasks iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD1445672CE2940D8E6B3C18515CAB9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93128B623D99575A0FD84D1D008D0F /* Extensions.swift */; };
+		81917C7DED283776FCE67D67056BDA0B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B43D8C41DAB6161CE7D515E243578 /* Priority.swift */; };
+		862FB360409AC0CB64505A8B9649EFC0 /* Pods-RealmTasks-RealmTasks macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B6BD9D1893208E17FEAB21B6F3DB18 /* Pods-RealmTasks-RealmTasks macOS-dummy.m */; };
+		866481031AF7A3499BC87A0B3B959C3C /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504D384842E028A7C73E52AD2995021 /* Constrain.swift */; };
+		86E33A8291D1DD354091749CAC157350 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A592171CD66E65E3207884492855F5 /* Size.swift */; };
+		89FBCAD3179E4E8D2E34B5F8ECE6EA15 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF36D35AF8522EFA140E1D58C021A /* Align.swift */; };
+		8F54AB6730D2B2B6EDC819547CC20E65 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE38676A247BAA51980BD129F71760C /* Property.swift */; };
+		8FA1D2B4D3DB21BA0356CA65BD447894 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DE6560CE572D8F60408905ADB19EF /* Coefficients.swift */; };
+		9B2A259412144365906896EEB2CA4BBE /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14E6FED12168BAEC71E151B818E1707 /* Edges.swift */; };
+		9B4891BD9476BC40F45C578D82AB0A96 /* Pods-RealmTasks-RealmTasks macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F76298D9338751FA37C1DDA0526E404E /* Pods-RealmTasks-RealmTasks macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B57A7F8502D24A8688F770323D5019E /* Pods-RealmTasks-RealmTasks iOS Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68974BE2CEF67DC31D7D5588907B819 /* Pods-RealmTasks-RealmTasks iOS Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A180F82A2BAD7566A30ABD5835B9DCFE /* Cartography-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA2D8AE3D6CF5286B3E56C85E29011E /* Cartography-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98F2D6E40C06F6530CA321BC35095EB /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56E9B7A60FF315433103B41B26DECB /* Compound.swift */; };
+		AA681C1CAB135BFC188DC80499E72A12 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D791F1268EEBEE51757EAF6E72C2308 /* Expression.swift */; };
+		B1F6D6CAB9EB2E73A6147E36E17233A2 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF36D35AF8522EFA140E1D58C021A /* Align.swift */; };
+		B2C63D8F6C60399DF43C07C696D7CE11 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B04411E9C8A1F0EA510BEB25C1D4A /* ViewUtils.swift */; };
+		B876E66385739104150EBFE00D2EB121 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EA0BB75BDF92D593460D84C876912 /* Dimension.swift */; };
+		B9026ED27C3A577A9119EF1D4375FCDE /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56E9B7A60FF315433103B41B26DECB /* Compound.swift */; };
+		BCA9DD7660C77AD96D4AB8E76650F0E8 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EA0BB75BDF92D593460D84C876912 /* Dimension.swift */; };
+		C2A320488991DA69ED521B37936053FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */; };
+		C7AF44D4512CF1CDE359E6A46D7D6F19 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318899E4C7F625C00670BDA9570F3993 /* LayoutProxy.swift */; };
+		CFA9B4138E4125259B5499A23AAAF6BE /* Cartography-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0837FCD06DC1E82E24D677E48C16BD /* Cartography-OSX-dummy.m */; };
+		D1B5026670CEA50B408596191FFEC9F2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC02B822053EFC39844B5C054DC8840 /* Constraint.swift */; };
+		DC40639EAF3C5163932F516B0EBAE949 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F481767AC695ECA9429F888B1ED6F /* Edge.swift */; };
+		E8171DBC4149E72BBB59183F28E88EAA /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CCAD0D6BE251790AD4135C73207CCA /* LayoutSupport.swift */; };
+		EFDF167CAD0FC9637729C76BF0D9BD25 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A592171CD66E65E3207884492855F5 /* Size.swift */; };
+		FC1C6D9834060A87525AB233263D77A7 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F481767AC695ECA9429F888B1ED6F /* Edge.swift */; };
+		FC4268A1849C1C36920B9A119FA41348 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D791F1268EEBEE51757EAF6E72C2308 /* Expression.swift */; };
+		FDC13B9C6DEA866A36F6D1A6AEF79331 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFDC9CE2E409D15FDD0B256EC4CD9 /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111D8B19B6F41D66175AE938DAECD28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21A5E6BD36302A2A97EDE658FB24C07;
+			remoteInfo = "Cartography-OSX";
+		};
+		535C343505E99313F28DF3DB00FAAE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6425E15E95AABDF3FF7370DE0865AA19;
+			remoteInfo = "Cartography-iOS";
+		};
+		697491BFDCAC7BB97754716350983559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6425E15E95AABDF3FF7370DE0865AA19;
+			remoteInfo = "Cartography-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02493831DE6F67E014CD2191BA15233E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13329EA5B36FE07DF352AAD87ACAE52F /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186B43D8C41DAB6161CE7D515E243578 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		1CD2A2B3348AD4FE48A7E9833E99D1F6 /* Pods-RealmTasks-RealmTasks iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmTasks-RealmTasks iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		22171EE4DD23DD925AF739F3CB5A1482 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		237BAA6A6FC9FFCBDD6EB1C8AF82C7C7 /* Pods-RealmTasks-RealmTasks iOS Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmTasks-RealmTasks iOS Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A3EBA668167F80FACC7DADD69D6A30A /* Cartography-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Cartography-iOS-dummy.m"; path = "../Cartography-iOS/Cartography-iOS-dummy.m"; sourceTree = "<group>"; };
+		2EEF2D9B279F80D2FEBCA8E454F1C761 /* Pods-RealmTasks-RealmTasks iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmTasks-RealmTasks iOS-umbrella.h"; sourceTree = "<group>"; };
+		318899E4C7F625C00670BDA9570F3993 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		33AB25C9BEA83B82C4C83F5483DB1093 /* Pods-RealmTasks-RealmTasks macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmTasks-RealmTasks macOS.release.xcconfig"; sourceTree = "<group>"; };
+		3A8CC0F3013F54264BC1378ECF36E786 /* Pods-RealmTasks-RealmTasks iOS Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmTasks-RealmTasks iOS Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3AE66F7A6B9FAB42B13EF27AE1D0161F /* Pods-RealmTasks-RealmTasks iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmTasks-RealmTasks iOS-dummy.m"; sourceTree = "<group>"; };
+		453DE6560CE572D8F60408905ADB19EF /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		464CDEB6F33FA4072EC808D27A12A02C /* Cartography-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Cartography-OSX.modulemap"; sourceTree = "<group>"; };
+		477613D58A614DA3A607C7CD28194DB6 /* Pods-RealmTasks-RealmTasks iOS Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmTasks-RealmTasks iOS Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A8C6078FD57F1F3AD98E87DD677E503 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		4AA2D8AE3D6CF5286B3E56C85E29011E /* Cartography-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-OSX-umbrella.h"; sourceTree = "<group>"; };
+		4DCCF36D35AF8522EFA140E1D58C021A /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		4E56E9B7A60FF315433103B41B26DECB /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		4FE89F6355BE83AD9C6FC37323F1BD9F /* Pods-RealmTasks-RealmTasks iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmTasks-RealmTasks iOS.modulemap"; sourceTree = "<group>"; };
+		54B6BD9D1893208E17FEAB21B6F3DB18 /* Pods-RealmTasks-RealmTasks macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmTasks-RealmTasks macOS-dummy.m"; sourceTree = "<group>"; };
+		57CCAD0D6BE251790AD4135C73207CCA /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		5B7F481767AC695ECA9429F888B1ED6F /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		5D57F860E7159BB8725B658CC50D39ED /* Pods-RealmTasks-RealmTasks iOS Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmTasks-RealmTasks iOS Tests-dummy.m"; sourceTree = "<group>"; };
+		6602023F449FA288F28D801A356FACB6 /* Cartography-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Cartography-iOS-umbrella.h"; path = "../Cartography-iOS/Cartography-iOS-umbrella.h"; sourceTree = "<group>"; };
+		73CB2458127566E54B43ED11AE882B60 /* Pods-RealmTasks-RealmTasks macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmTasks-RealmTasks macOS-resources.sh"; sourceTree = "<group>"; };
+		77626EF86CAF1FA3BA77CD823016491C /* Cartography-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Cartography-iOS.xcconfig"; path = "../Cartography-iOS/Cartography-iOS.xcconfig"; sourceTree = "<group>"; };
+		784AF3590ADFD0F8768B9CF6E56776E0 /* Pods-RealmTasks-RealmTasks iOS Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmTasks-RealmTasks iOS Tests.modulemap"; sourceTree = "<group>"; };
+		827AFDC9CE2E409D15FDD0B256EC4CD9 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		868F0AFDD9436918D521E5B49D395515 /* Cartography-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Cartography-iOS-prefix.pch"; path = "../Cartography-iOS/Cartography-iOS-prefix.pch"; sourceTree = "<group>"; };
+		896BEA4EB5AE285D0ACF6CC04CE35218 /* Pods-RealmTasks-RealmTasks iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmTasks-RealmTasks iOS-frameworks.sh"; sourceTree = "<group>"; };
+		899426378C51F6D540EF4EDF4E30D26E /* Pods-RealmTasks-RealmTasks iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmTasks-RealmTasks iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8B4B04411E9C8A1F0EA510BEB25C1D4A /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		8D791F1268EEBEE51757EAF6E72C2308 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		92D386F173D012027485659D11677724 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Cartography-iOS/Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D674293C7524DA2728CFE2982EAD7AC /* Pods-RealmTasks-RealmTasks macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmTasks-RealmTasks macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E93128B623D99575A0FD84D1D008D0F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		9F28E0F705876D0393EE4830D3E232B0 /* Pods-RealmTasks-RealmTasks macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmTasks-RealmTasks macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A219BC4ADD25452FFBF913F2616245B0 /* Pods-RealmTasks-RealmTasks iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmTasks-RealmTasks iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A72EB8C1E92973CED8763430BD64D67B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA4586DF29B685D017FE4CFC5D39FCC /* Pods-RealmTasks-RealmTasks macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmTasks-RealmTasks macOS.modulemap"; sourceTree = "<group>"; };
+		ABBE0171F012C2358DB316421CFF929B /* Pods_RealmTasks_RealmTasks_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTasks_RealmTasks_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC13D8AB540ED214D0E516CB12D5E172 /* Cartography-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-OSX-prefix.pch"; sourceTree = "<group>"; };
+		ACE38676A247BAA51980BD129F71760C /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B3DA311E4C0A073B70737A54ED61C4E1 /* Pods-RealmTasks-RealmTasks iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmTasks-RealmTasks iOS-resources.sh"; sourceTree = "<group>"; };
+		B504D384842E028A7C73E52AD2995021 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		B87404EB2AD3E5CF305E938F7EDE34F9 /* Pods_RealmTasks_RealmTasks_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTasks_RealmTasks_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB8E50972399BD92B99076E53D56036 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC3A4619FBF7F7FDDA55A7C9CA19852 /* Pods-RealmTasks-RealmTasks iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmTasks-RealmTasks iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCF911DE934EE05CC1219D192113BBD4 /* Pods-RealmTasks-RealmTasks iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmTasks-RealmTasks iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1C09F6103F3A104A165F59AA2D3C742 /* Cartography-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Cartography-OSX.xcconfig"; sourceTree = "<group>"; };
+		C3E24D0D2F9A0900AF260A5F8D0FBCDB /* Pods-RealmTasks-RealmTasks iOS Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmTasks-RealmTasks iOS Tests-resources.sh"; sourceTree = "<group>"; };
+		C555D3D62B973C5D68FB5C82DF179CBB /* Pods-RealmTasks-RealmTasks iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmTasks-RealmTasks iOS.release.xcconfig"; sourceTree = "<group>"; };
+		CD0837FCD06DC1E82E24D677E48C16BD /* Cartography-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-OSX-dummy.m"; sourceTree = "<group>"; };
+		D173B0156B4C67C9C76AA009F16EA864 /* Pods-RealmTasks-RealmTasks macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmTasks-RealmTasks macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1A592171CD66E65E3207884492855F5 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		D5EE59169BF80526D5F97433AA527FDC /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		DDC02B822053EFC39844B5C054DC8840 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		DF27CCEE8B45449EA10673FA3664A9D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF337BC73414B70760A0B102357008EA /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		E14E6FED12168BAEC71E151B818E1707 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		E68974BE2CEF67DC31D7D5588907B819 /* Pods-RealmTasks-RealmTasks iOS Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmTasks-RealmTasks iOS Tests-umbrella.h"; sourceTree = "<group>"; };
+		E88950D8B4D92C995C38AEFE8E7C11D3 /* Cartography-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Cartography-iOS.modulemap"; path = "../Cartography-iOS/Cartography-iOS.modulemap"; sourceTree = "<group>"; };
+		E90D53BD520457028C32A6DBE58D896F /* Pods-RealmTasks-RealmTasks macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmTasks-RealmTasks macOS-frameworks.sh"; sourceTree = "<group>"; };
+		ECECE8D040D1C60FD7A99C6A663F0B50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3EA0BB75BDF92D593460D84C876912 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		F758D3A79B0E11130C9DF35E95E2E16A /* Pods_RealmTasks_RealmTasks_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTasks_RealmTasks_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76298D9338751FA37C1DDA0526E404E /* Pods-RealmTasks-RealmTasks macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmTasks-RealmTasks macOS-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187E4CBF7BA0A61CF44BA04FAF76509A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6677BEF2C4092C9551F512278819D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202E0D271A52E847A745D7BE24BB2B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7781D2A79081488FF659461355D27F8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3134F89679824E7375E5DB00BE498FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A320488991DA69ED521B37936053FF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA018886F26835DDD44A6521A0459ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFB44FCF94A69AC1EA5827CEB3E2471 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5636BBABB113054BDA5036AC2186B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149B5433A7538F73A83B38FD1A4478A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096C11F596D8A83D3AB5DEB5D1521A89 /* Pods-RealmTasks-RealmTasks iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF27CCEE8B45449EA10673FA3664A9D6 /* Info.plist */,
+				4FE89F6355BE83AD9C6FC37323F1BD9F /* Pods-RealmTasks-RealmTasks iOS.modulemap */,
+				BCF911DE934EE05CC1219D192113BBD4 /* Pods-RealmTasks-RealmTasks iOS-acknowledgements.markdown */,
+				1CD2A2B3348AD4FE48A7E9833E99D1F6 /* Pods-RealmTasks-RealmTasks iOS-acknowledgements.plist */,
+				3AE66F7A6B9FAB42B13EF27AE1D0161F /* Pods-RealmTasks-RealmTasks iOS-dummy.m */,
+				896BEA4EB5AE285D0ACF6CC04CE35218 /* Pods-RealmTasks-RealmTasks iOS-frameworks.sh */,
+				B3DA311E4C0A073B70737A54ED61C4E1 /* Pods-RealmTasks-RealmTasks iOS-resources.sh */,
+				2EEF2D9B279F80D2FEBCA8E454F1C761 /* Pods-RealmTasks-RealmTasks iOS-umbrella.h */,
+				899426378C51F6D540EF4EDF4E30D26E /* Pods-RealmTasks-RealmTasks iOS.debug.xcconfig */,
+				C555D3D62B973C5D68FB5C82DF179CBB /* Pods-RealmTasks-RealmTasks iOS.release.xcconfig */,
+			);
+			name = "Pods-RealmTasks-RealmTasks iOS";
+			path = "Target Support Files/Pods-RealmTasks-RealmTasks iOS";
+			sourceTree = "<group>";
+		};
+		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA55AE7EB4A1B09C009B82BA492BD02 /* iOS */,
+				9304B30CB87FDB77B6CEE9FB6B800855 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		623057DE19A4899DC13BA9AE3A4F25FE /* Pods-RealmTasks-RealmTasks macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECECE8D040D1C60FD7A99C6A663F0B50 /* Info.plist */,
+				ABA4586DF29B685D017FE4CFC5D39FCC /* Pods-RealmTasks-RealmTasks macOS.modulemap */,
+				9D674293C7524DA2728CFE2982EAD7AC /* Pods-RealmTasks-RealmTasks macOS-acknowledgements.markdown */,
+				D173B0156B4C67C9C76AA009F16EA864 /* Pods-RealmTasks-RealmTasks macOS-acknowledgements.plist */,
+				54B6BD9D1893208E17FEAB21B6F3DB18 /* Pods-RealmTasks-RealmTasks macOS-dummy.m */,
+				E90D53BD520457028C32A6DBE58D896F /* Pods-RealmTasks-RealmTasks macOS-frameworks.sh */,
+				73CB2458127566E54B43ED11AE882B60 /* Pods-RealmTasks-RealmTasks macOS-resources.sh */,
+				F76298D9338751FA37C1DDA0526E404E /* Pods-RealmTasks-RealmTasks macOS-umbrella.h */,
+				9F28E0F705876D0393EE4830D3E232B0 /* Pods-RealmTasks-RealmTasks macOS.debug.xcconfig */,
+				33AB25C9BEA83B82C4C83F5483DB1093 /* Pods-RealmTasks-RealmTasks macOS.release.xcconfig */,
+			);
+			name = "Pods-RealmTasks-RealmTasks macOS";
+			path = "Target Support Files/Pods-RealmTasks-RealmTasks macOS";
+			sourceTree = "<group>";
+		};
+		6937386AF02892457A41BD568264F776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13329EA5B36FE07DF352AAD87ACAE52F /* Cartography.framework */,
+				BBB8E50972399BD92B99076E53D56036 /* Cartography.framework */,
+				ABBE0171F012C2358DB316421CFF929B /* Pods_RealmTasks_RealmTasks_iOS.framework */,
+				F758D3A79B0E11130C9DF35E95E2E16A /* Pods_RealmTasks_RealmTasks_iOS_Tests.framework */,
+				B87404EB2AD3E5CF305E938F7EDE34F9 /* Pods_RealmTasks_RealmTasks_macOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A3C7F3AF40DACC3B51BFBF9CA525757 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				4DCCF36D35AF8522EFA140E1D58C021A /* Align.swift */,
+				453DE6560CE572D8F60408905ADB19EF /* Coefficients.swift */,
+				4E56E9B7A60FF315433103B41B26DECB /* Compound.swift */,
+				B504D384842E028A7C73E52AD2995021 /* Constrain.swift */,
+				DDC02B822053EFC39844B5C054DC8840 /* Constraint.swift */,
+				DF337BC73414B70760A0B102357008EA /* ConstraintGroup.swift */,
+				22171EE4DD23DD925AF739F3CB5A1482 /* Context.swift */,
+				ED3EA0BB75BDF92D593460D84C876912 /* Dimension.swift */,
+				4A8C6078FD57F1F3AD98E87DD677E503 /* Distribute.swift */,
+				5B7F481767AC695ECA9429F888B1ED6F /* Edge.swift */,
+				E14E6FED12168BAEC71E151B818E1707 /* Edges.swift */,
+				8D791F1268EEBEE51757EAF6E72C2308 /* Expression.swift */,
+				9E93128B623D99575A0FD84D1D008D0F /* Extensions.swift */,
+				318899E4C7F625C00670BDA9570F3993 /* LayoutProxy.swift */,
+				57CCAD0D6BE251790AD4135C73207CCA /* LayoutSupport.swift */,
+				D5EE59169BF80526D5F97433AA527FDC /* Point.swift */,
+				186B43D8C41DAB6161CE7D515E243578 /* Priority.swift */,
+				ACE38676A247BAA51980BD129F71760C /* Property.swift */,
+				D1A592171CD66E65E3207884492855F5 /* Size.swift */,
+				827AFDC9CE2E409D15FDD0B256EC4CD9 /* View.swift */,
+				8B4B04411E9C8A1F0EA510BEB25C1D4A /* ViewUtils.swift */,
+				91BB3E7511FC11266B435BAB3A921FD4 /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		758C6210DEE6CC30D0BCBAEF9705EDE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				096C11F596D8A83D3AB5DEB5D1521A89 /* Pods-RealmTasks-RealmTasks iOS */,
+				7C77771538BFAC258FE6CDA01625CE56 /* Pods-RealmTasks-RealmTasks iOS Tests */,
+				623057DE19A4899DC13BA9AE3A4F25FE /* Pods-RealmTasks-RealmTasks macOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C77771538BFAC258FE6CDA01625CE56 /* Pods-RealmTasks-RealmTasks iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A72EB8C1E92973CED8763430BD64D67B /* Info.plist */,
+				784AF3590ADFD0F8768B9CF6E56776E0 /* Pods-RealmTasks-RealmTasks iOS Tests.modulemap */,
+				477613D58A614DA3A607C7CD28194DB6 /* Pods-RealmTasks-RealmTasks iOS Tests-acknowledgements.markdown */,
+				237BAA6A6FC9FFCBDD6EB1C8AF82C7C7 /* Pods-RealmTasks-RealmTasks iOS Tests-acknowledgements.plist */,
+				5D57F860E7159BB8725B658CC50D39ED /* Pods-RealmTasks-RealmTasks iOS Tests-dummy.m */,
+				3A8CC0F3013F54264BC1378ECF36E786 /* Pods-RealmTasks-RealmTasks iOS Tests-frameworks.sh */,
+				C3E24D0D2F9A0900AF260A5F8D0FBCDB /* Pods-RealmTasks-RealmTasks iOS Tests-resources.sh */,
+				E68974BE2CEF67DC31D7D5588907B819 /* Pods-RealmTasks-RealmTasks iOS Tests-umbrella.h */,
+				BBC3A4619FBF7F7FDDA55A7C9CA19852 /* Pods-RealmTasks-RealmTasks iOS Tests.debug.xcconfig */,
+				A219BC4ADD25452FFBF913F2616245B0 /* Pods-RealmTasks-RealmTasks iOS Tests.release.xcconfig */,
+			);
+			name = "Pods-RealmTasks-RealmTasks iOS Tests";
+			path = "Target Support Files/Pods-RealmTasks-RealmTasks iOS Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
+				C3A8124013EB3EC5D0EE8AAC411E5B26 /* Pods */,
+				6937386AF02892457A41BD568264F776 /* Products */,
+				758C6210DEE6CC30D0BCBAEF9705EDE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91BB3E7511FC11266B435BAB3A921FD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E88950D8B4D92C995C38AEFE8E7C11D3 /* Cartography-iOS.modulemap */,
+				77626EF86CAF1FA3BA77CD823016491C /* Cartography-iOS.xcconfig */,
+				2A3EBA668167F80FACC7DADD69D6A30A /* Cartography-iOS-dummy.m */,
+				868F0AFDD9436918D521E5B49D395515 /* Cartography-iOS-prefix.pch */,
+				6602023F449FA288F28D801A356FACB6 /* Cartography-iOS-umbrella.h */,
+				464CDEB6F33FA4072EC808D27A12A02C /* Cartography-OSX.modulemap */,
+				C1C09F6103F3A104A165F59AA2D3C742 /* Cartography-OSX.xcconfig */,
+				CD0837FCD06DC1E82E24D677E48C16BD /* Cartography-OSX-dummy.m */,
+				AC13D8AB540ED214D0E516CB12D5E172 /* Cartography-OSX-prefix.pch */,
+				4AA2D8AE3D6CF5286B3E56C85E29011E /* Cartography-OSX-umbrella.h */,
+				02493831DE6F67E014CD2191BA15233E /* Info.plist */,
+				92D386F173D012027485659D11677724 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography-OSX";
+			sourceTree = "<group>";
+		};
+		9304B30CB87FDB77B6CEE9FB6B800855 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		C3A8124013EB3EC5D0EE8AAC411E5B26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A3C7F3AF40DACC3B51BFBF9CA525757 /* Cartography */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEA55AE7EB4A1B09C009B82BA492BD02 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07A12E4E68CDEE7A59B080E3588943B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180F82A2BAD7566A30ABD5835B9DCFE /* Cartography-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD1AAAC75FF4072ADECD9DAB71B336A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AE9A3A30DB4C29ED986855783CA86F /* Pods-RealmTasks-RealmTasks iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67351D99541E7454DB411A141302D5F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5297CBEF0E31E800C66D60E32FD816A5 /* Cartography-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2A7688F39A6D7D22ED9B61E4E228BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B57A7F8502D24A8688F770323D5019E /* Pods-RealmTasks-RealmTasks iOS Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B979F719692CDF92401E8C1D8E5377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4891BD9476BC40F45C578D82AB0A96 /* Pods-RealmTasks-RealmTasks macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10E435E9FEFD8899B23303B87FEC4916 /* Pods-RealmTasks-RealmTasks macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B91AEBA4FFFBE934EA60A0427315270 /* Build configuration list for PBXNativeTarget "Pods-RealmTasks-RealmTasks macOS" */;
+			buildPhases = (
+				CACF912F0F5BCF2A1E10AE1FB446DCC8 /* Sources */,
+				3134F89679824E7375E5DB00BE498FFC /* Frameworks */,
+				83B979F719692CDF92401E8C1D8E5377 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C6319869715FBDD2C2841DCE68FACBF /* PBXTargetDependency */,
+			);
+			name = "Pods-RealmTasks-RealmTasks macOS";
+			productName = "Pods-RealmTasks-RealmTasks macOS";
+			productReference = B87404EB2AD3E5CF305E938F7EDE34F9 /* Pods_RealmTasks_RealmTasks_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F439099DB55925FCE2184798988700D /* Pods-RealmTasks-RealmTasks iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB8A878EC23EB0EA3328C0FF707107C /* Build configuration list for PBXNativeTarget "Pods-RealmTasks-RealmTasks iOS Tests" */;
+			buildPhases = (
+				B35B222BF9E89E4C29D0CB74F7AB64BB /* Sources */,
+				EB5636BBABB113054BDA5036AC2186B5 /* Frameworks */,
+				7B2A7688F39A6D7D22ED9B61E4E228BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05A1D7445AFDAF08E9CC2248FEBBBC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RealmTasks-RealmTasks iOS Tests";
+			productName = "Pods-RealmTasks-RealmTasks iOS Tests";
+			productReference = F758D3A79B0E11130C9DF35E95E2E16A /* Pods_RealmTasks_RealmTasks_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6425E15E95AABDF3FF7370DE0865AA19 /* Cartography-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B159B95D363B98CD1512040A2F9BC5EF /* Build configuration list for PBXNativeTarget "Cartography-iOS" */;
+			buildPhases = (
+				A7C4A58771522A460B69DA0C343A23FA /* Sources */,
+				187E4CBF7BA0A61CF44BA04FAF76509A /* Frameworks */,
+				67351D99541E7454DB411A141302D5F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cartography-iOS";
+			productName = "Cartography-iOS";
+			productReference = BBB8E50972399BD92B99076E53D56036 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACC442DAC34A2A910658045A26BE3A45 /* Pods-RealmTasks-RealmTasks iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA6C21599076C0E44454C72CE0EF160 /* Build configuration list for PBXNativeTarget "Pods-RealmTasks-RealmTasks iOS" */;
+			buildPhases = (
+				2E3E20C28B3E9F0C6493636BDF7BF626 /* Sources */,
+				202E0D271A52E847A745D7BE24BB2B9D /* Frameworks */,
+				3BD1AAAC75FF4072ADECD9DAB71B336A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94BD4A58A5752458E52708B7224F841 /* PBXTargetDependency */,
+			);
+			name = "Pods-RealmTasks-RealmTasks iOS";
+			productName = "Pods-RealmTasks-RealmTasks iOS";
+			productReference = ABBE0171F012C2358DB316421CFF929B /* Pods_RealmTasks_RealmTasks_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C21A5E6BD36302A2A97EDE658FB24C07 /* Cartography-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F1D63DDA47BF541D6DFBDEFEA33E02 /* Build configuration list for PBXNativeTarget "Cartography-OSX" */;
+			buildPhases = (
+				661067566FEDC5941358F9FF5BE649B3 /* Sources */,
+				CA018886F26835DDD44A6521A0459ACE /* Frameworks */,
+				07A12E4E68CDEE7A59B080E3588943B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cartography-OSX";
+			productName = "Cartography-OSX";
+			productReference = 13329EA5B36FE07DF352AAD87ACAE52F /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6937386AF02892457A41BD568264F776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6425E15E95AABDF3FF7370DE0865AA19 /* Cartography-iOS */,
+				C21A5E6BD36302A2A97EDE658FB24C07 /* Cartography-OSX */,
+				ACC442DAC34A2A910658045A26BE3A45 /* Pods-RealmTasks-RealmTasks iOS */,
+				2F439099DB55925FCE2184798988700D /* Pods-RealmTasks-RealmTasks iOS Tests */,
+				10E435E9FEFD8899B23303B87FEC4916 /* Pods-RealmTasks-RealmTasks macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3E20C28B3E9F0C6493636BDF7BF626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D536BFCCA2CC7F507F135011C4D18EF /* Pods-RealmTasks-RealmTasks iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661067566FEDC5941358F9FF5BE649B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FBCAD3179E4E8D2E34B5F8ECE6EA15 /* Align.swift in Sources */,
+				CFA9B4138E4125259B5499A23AAAF6BE /* Cartography-OSX-dummy.m in Sources */,
+				5D2608AACCA9593F53628E7A4274684A /* Coefficients.swift in Sources */,
+				A98F2D6E40C06F6530CA321BC35095EB /* Compound.swift in Sources */,
+				0E421B8671B49B98C0A974A20A3C9C09 /* Constrain.swift in Sources */,
+				37F2DB00438851A8E39E20490E783D6F /* Constraint.swift in Sources */,
+				6D46B290090A2B56FC70BACC1DE8F0E2 /* ConstraintGroup.swift in Sources */,
+				33250D5F5F58EDF3967B7B00DE927791 /* Context.swift in Sources */,
+				B876E66385739104150EBFE00D2EB121 /* Dimension.swift in Sources */,
+				0B33618579C6D641CA489CDF0C556E97 /* Distribute.swift in Sources */,
+				FC1C6D9834060A87525AB233263D77A7 /* Edge.swift in Sources */,
+				9B2A259412144365906896EEB2CA4BBE /* Edges.swift in Sources */,
+				AA681C1CAB135BFC188DC80499E72A12 /* Expression.swift in Sources */,
+				7CD1445672CE2940D8E6B3C18515CAB9 /* Extensions.swift in Sources */,
+				1FA59BAA177FCCC02B214860CECA080D /* LayoutProxy.swift in Sources */,
+				E8171DBC4149E72BBB59183F28E88EAA /* LayoutSupport.swift in Sources */,
+				5B01786BF3B58495ED39ED9EA4EB78E9 /* Point.swift in Sources */,
+				4731C2150715991045D91A70C8EE543C /* Priority.swift in Sources */,
+				6D788A53FE5416D1885A5163CC484260 /* Property.swift in Sources */,
+				86E33A8291D1DD354091749CAC157350 /* Size.swift in Sources */,
+				FDC13B9C6DEA866A36F6D1A6AEF79331 /* View.swift in Sources */,
+				B2C63D8F6C60399DF43C07C696D7CE11 /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C4A58771522A460B69DA0C343A23FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F6D6CAB9EB2E73A6147E36E17233A2 /* Align.swift in Sources */,
+				061E41732EF4592DD90A1A9588EEF5AB /* Cartography-iOS-dummy.m in Sources */,
+				8FA1D2B4D3DB21BA0356CA65BD447894 /* Coefficients.swift in Sources */,
+				B9026ED27C3A577A9119EF1D4375FCDE /* Compound.swift in Sources */,
+				866481031AF7A3499BC87A0B3B959C3C /* Constrain.swift in Sources */,
+				D1B5026670CEA50B408596191FFEC9F2 /* Constraint.swift in Sources */,
+				2ED52B35AD7DABACDF0F8682FBDDC51C /* ConstraintGroup.swift in Sources */,
+				70F40E6EE64F3B8507DA51A913A96D4B /* Context.swift in Sources */,
+				BCA9DD7660C77AD96D4AB8E76650F0E8 /* Dimension.swift in Sources */,
+				527C10BE105ED5D2B9AF641BD9E43838 /* Distribute.swift in Sources */,
+				DC40639EAF3C5163932F516B0EBAE949 /* Edge.swift in Sources */,
+				2A81CD9CFEA71CA6A512EBAB9A80573A /* Edges.swift in Sources */,
+				FC4268A1849C1C36920B9A119FA41348 /* Expression.swift in Sources */,
+				5216AE485E82D65EDD00CD5BBA7B1814 /* Extensions.swift in Sources */,
+				C7AF44D4512CF1CDE359E6A46D7D6F19 /* LayoutProxy.swift in Sources */,
+				0D82772DD042C5A6F6918431C095CE89 /* LayoutSupport.swift in Sources */,
+				3AE34D75D7C874EA565E61DD09062486 /* Point.swift in Sources */,
+				81917C7DED283776FCE67D67056BDA0B /* Priority.swift in Sources */,
+				8F54AB6730D2B2B6EDC819547CC20E65 /* Property.swift in Sources */,
+				EFDF167CAD0FC9637729C76BF0D9BD25 /* Size.swift in Sources */,
+				53E050EE72197654AC3D01DF88611B69 /* View.swift in Sources */,
+				23D37A191FE57F74490C4DE491A30DA9 /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B222BF9E89E4C29D0CB74F7AB64BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564437CDF63532D1E013C25B84388AB7 /* Pods-RealmTasks-RealmTasks iOS Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACF912F0F5BCF2A1E10AE1FB446DCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862FB360409AC0CB64505A8B9649EFC0 /* Pods-RealmTasks-RealmTasks macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C6319869715FBDD2C2841DCE68FACBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cartography-OSX";
+			target = C21A5E6BD36302A2A97EDE658FB24C07 /* Cartography-OSX */;
+			targetProxy = 111D8B19B6F41D66175AE938DAECD28C /* PBXContainerItemProxy */;
+		};
+		A05A1D7445AFDAF08E9CC2248FEBBBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cartography-iOS";
+			target = 6425E15E95AABDF3FF7370DE0865AA19 /* Cartography-iOS */;
+			targetProxy = 535C343505E99313F28DF3DB00FAAE25 /* PBXContainerItemProxy */;
+		};
+		A94BD4A58A5752458E52708B7224F841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cartography-iOS";
+			target = 6425E15E95AABDF3FF7370DE0865AA19 /* Cartography-iOS */;
+			targetProxy = 697491BFDCAC7BB97754716350983559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E8999466DF109C7BB63F0C37352C48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC3A4619FBF7F7FDDA55A7C9CA19852 /* Pods-RealmTasks-RealmTasks iOS Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS Tests/Pods-RealmTasks-RealmTasks iOS Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmTasks_RealmTasks_iOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14D350E45065676F9A195FC39F4A6FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F28E0F705876D0393EE4830D3E232B0 /* Pods-RealmTasks-RealmTasks macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks macOS/Pods-RealmTasks-RealmTasks macOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmTasks_RealmTasks_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3580295154034E5AF89FE6BC96C59DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77626EF86CAF1FA3BA77CD823016491C /* Cartography-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography-iOS/Cartography-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography-iOS/Cartography-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F303D62F58CF5059EB046C541F84219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AB25C9BEA83B82C4C83F5483DB1093 /* Pods-RealmTasks-RealmTasks macOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks macOS/Pods-RealmTasks-RealmTasks macOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmTasks_RealmTasks_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B8CEFEEEE4A58332CAF1697523435B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77626EF86CAF1FA3BA77CD823016491C /* Cartography-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography-iOS/Cartography-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography-iOS/Cartography-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		773496A9CD0BF578741D0C6129053E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C09F6103F3A104A165F59AA2D3C742 /* Cartography-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography-OSX/Cartography-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Cartography-OSX/Cartography-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80A8F3478F654524388325AC6312AFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ACF372B1EABD0403DD9C0FC9D3B42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C555D3D62B973C5D68FB5C82DF179CBB /* Pods-RealmTasks-RealmTasks iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS/Pods-RealmTasks-RealmTasks iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmTasks_RealmTasks_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0D6680C90C0F0618CAADAB09B7ACF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899426378C51F6D540EF4EDF4E30D26E /* Pods-RealmTasks-RealmTasks iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS/Pods-RealmTasks-RealmTasks iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmTasks_RealmTasks_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB8BCB76571952C4A83125C6994ABDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C92871649A57DD3FDF8FC645539DADA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A219BC4ADD25452FFBF913F2616245B0 /* Pods-RealmTasks-RealmTasks iOS Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmTasks-RealmTasks iOS Tests/Pods-RealmTasks-RealmTasks iOS Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmTasks_RealmTasks_iOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC4E7555500E913CB24A60FCA8111190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C09F6103F3A104A165F59AA2D3C742 /* Cartography-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography-OSX/Cartography-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Cartography-OSX/Cartography-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA6C21599076C0E44454C72CE0EF160 /* Build configuration list for PBXNativeTarget "Pods-RealmTasks-RealmTasks iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D6680C90C0F0618CAADAB09B7ACF20 /* Debug */,
+				9ACF372B1EABD0403DD9C0FC9D3B42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8BCB76571952C4A83125C6994ABDEE /* Debug */,
+				80A8F3478F654524388325AC6312AFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B91AEBA4FFFBE934EA60A0427315270 /* Build configuration list for PBXNativeTarget "Pods-RealmTasks-RealmTasks macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D350E45065676F9A195FC39F4A6FB4 /* Debug */,
+				3F303D62F58CF5059EB046C541F84219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B159B95D363B98CD1512040A2F9BC5EF /* Build configuration list for PBXNativeTarget "Cartography-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580295154034E5AF89FE6BC96C59DE8 /* Debug */,
+				6B8CEFEEEE4A58332CAF1697523435B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F1D63DDA47BF541D6DFBDEFEA33E02 /* Build configuration list for PBXNativeTarget "Cartography-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4E7555500E913CB24A60FCA8111190 /* Debug */,
+				773496A9CD0BF578741D0C6129053E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB8A878EC23EB0EA3328C0FF707107C /* Build configuration list for PBXNativeTarget "Pods-RealmTasks-RealmTasks iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8999466DF109C7BB63F0C37352C48C /* Debug */,
+				C92871649A57DD3FDF8FC645539DADA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

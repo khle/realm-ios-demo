@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Cartography-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Cartography-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-RealmTasks-RealmTasks iOS Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-RealmTasks-RealmTasks iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-RealmTasks-RealmTasks macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>10E435E9FEFD8899B23303B87FEC4916</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F439099DB55925FCE2184798988700D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6425E15E95AABDF3FF7370DE0865AA19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ACC442DAC34A2A910658045A26BE3A45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C21A5E6BD36302A2A97EDE658FB24C07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

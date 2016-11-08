@@ -1,0 +1,6 @@
+framework module Pods_RealmTasks_RealmTasks_macOS {
+  umbrella header "Pods-RealmTasks-RealmTasks macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
